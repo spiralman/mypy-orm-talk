@@ -1,0 +1,37 @@
+* Free Yourself from your ORM with MyPy
+
+I am Thomas Stephens, a full-stack developer at uStudio.
+
+* Why are ORMs Bad?
+
+They couple your application code to your database.
+
+They hide your queries behind opaque interfaces.
+
+Their behavior can sometimes be unexpected and dangerous.
+
+* Why are ORMs Good?
+
+They abstract your code from the DB interface.
+
+They can provide higher level interfaces to your database.
+
+They can enforce a schema at the application level.
+
+Simple patterns can be built very easily.
+
+* What alternatives are there?
+
+Functional Composition -> f(g(x))
+
+Built in data structures
+
+"Bare" classes.
+
+* What is MyPy?
+
+It has nothing to do with databases.
+
+It's a static type checker.
+
+* Let's try it out!

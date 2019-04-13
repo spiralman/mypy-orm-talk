@@ -1,3 +1,6 @@
+# We need to be able to take a result from the database, or user
+# input, and turn it into an instance of our "model"
+
 from mypy_extensions import TypedDict
 
 

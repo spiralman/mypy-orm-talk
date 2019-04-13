@@ -1,3 +1,6 @@
+# We want to use this new type to add a feature to be able to find one
+# book that's related to another book.
+
 from mypy_extensions import TypedDict
 import db
 

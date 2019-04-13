@@ -1,3 +1,6 @@
+# We want to save the "model" back out to the database. Note that the
+# keys will always be present, and never null in the database.
+
 from mypy_extensions import TypedDict
 import db
 

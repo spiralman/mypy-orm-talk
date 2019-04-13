@@ -1,3 +1,6 @@
+# We can "inherit" from one TypedDict to get another, with all the
+# same attributes, plus new ones.
+
 from mypy_extensions import TypedDict
 import db
 

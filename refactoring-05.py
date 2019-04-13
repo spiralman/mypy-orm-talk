@@ -1,3 +1,15 @@
+# Now, we want to be able to use the book in series function from
+# find_related. But, we have to do some checking, to ensure that the
+# book passed in belongs to a series.
+
+# Unfortunately, MyPy isn't quite smart enough to avoid the cast. But,
+# non-the-less, we can at least trust that, once we've performed the
+# check, the rest of the code can be guaranteed that the attribute is
+# there.
+
+# Also, note that MyPy is smart enough to know that a BookInSeries can
+# be used where you expect a Book
+
 from typing import Optional, cast
 from mypy_extensions import TypedDict
 import db

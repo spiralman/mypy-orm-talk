@@ -1,3 +1,5 @@
+# Now we need to add a new required attribute to the model.
+
 from mypy_extensions import TypedDict
 import db
 

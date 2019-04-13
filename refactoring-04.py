@@ -1,3 +1,7 @@
+# First, we try to define a function that can find another book in the
+# same series. But, we also need to define a function for parsing a
+# book that has a series attribute.
+
 from typing import Optional
 from mypy_extensions import TypedDict
 import db
